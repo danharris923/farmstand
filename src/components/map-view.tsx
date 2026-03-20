@@ -8,33 +8,31 @@ const BC_ZOOM = 5;
 
 export function MapView({
   markets,
-  selectedMarket,
-  onSelectMarket,
   userLocation,
 }: {
   markets: MarketWithDetails[];
-  selectedMarket: MarketWithDetails | null;
-  onSelectMarket: (market: MarketWithDetails) => void;
   userLocation: { lat: number; lng: number } | null;
 }) {
   const mapRef = useRef<HTMLDivElement>(null);
   const googleMapRef = useRef<google.maps.Map | null>(null);
-  const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
+  const markersRef = useRef<google.maps.Marker[]>([]);
+  const infoRef = useRef<google.maps.InfoWindow | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
 
   // Load Google Maps script
   useEffect(() => {
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-    if (!apiKey || document.querySelector('script[src*="maps.googleapis.com"]'))
+    if (!apiKey) return;
+    if (document.querySelector('script[src*="maps.googleapis.com"]')) {
+      setMapLoaded(true);
       return;
+    }
 
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=marker&v=weekly`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&v=weekly`;
     script.async = true;
     script.onload = () => setMapLoaded(true);
     document.head.appendChild(script);
-
-    return () => {};
   }, []);
 
   // Initialize map
@@ -44,87 +42,90 @@ export function MapView({
     googleMapRef.current = new google.maps.Map(mapRef.current, {
       center: userLocation || BC_CENTER,
       zoom: userLocation ? 11 : BC_ZOOM,
-      mapId: "farmstand-map",
       disableDefaultUI: true,
       zoomControl: true,
+      gestureHandling: "greedy",
       styles: [
         { featureType: "poi", stylers: [{ visibility: "off" }] },
         { featureType: "transit", stylers: [{ visibility: "off" }] },
-        {
-          featureType: "landscape",
-          stylers: [{ color: "#f5f0e8" }],
-        },
-        {
-          featureType: "water",
-          stylers: [{ color: "#c4dfe6" }],
-        },
+        { featureType: "landscape", stylers: [{ color: "#f5f0e8" }] },
+        { featureType: "water", stylers: [{ color: "#c4dfe6" }] },
       ],
     });
+
+    infoRef.current = new google.maps.InfoWindow();
   }, [mapLoaded, userLocation]);
 
-  // Update markers when markets change
+  // Place markers
   useEffect(() => {
     const map = googleMapRef.current;
     if (!map || !mapLoaded) return;
 
     // Clear old markers
-    markersRef.current.forEach((m) => (m.map = null));
+    markersRef.current.forEach((m) => m.setMap(null));
     markersRef.current = [];
+
+    const infoWindow = infoRef.current!;
 
     markets.forEach((market) => {
       if (!market.latitude || !market.longitude) return;
 
-      const isSelected = selectedMarket?.id === market.id;
+      const marker = new google.maps.Marker({
+        map,
+        position: { lat: market.latitude, lng: market.longitude },
+        title: market.name,
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 8,
+          fillColor: "#2d6a4f",
+          fillOpacity: 0.9,
+          strokeColor: "#ffffff",
+          strokeWeight: 2,
+        },
+      });
 
-      const pin = document.createElement("div");
-      pin.className = `transition-all duration-200 cursor-pointer`;
-      pin.innerHTML = `
-        <div class="flex flex-col items-center">
-          <div class="${
-            isSelected
-              ? "w-10 h-10 bg-primary shadow-lg scale-110"
-              : "w-7 h-7 bg-primary/80 hover:bg-primary hover:scale-110"
-          } rounded-full flex items-center justify-center transition-all shadow-md border-2 border-white">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-              <circle cx="12" cy="10" r="3"/>
-            </svg>
+      const websiteLink = market.website
+        ? `<a href="${market.website}" target="_blank" rel="noopener noreferrer" style="color:#2d6a4f;font-weight:600;text-decoration:none;display:inline-flex;align-items:center;gap:4px;">Visit Website &rarr;</a>`
+        : "";
+
+      const seasonBadge = market.season_type
+        ? `<span style="display:inline-block;padding:2px 8px;border-radius:9999px;font-size:11px;font-weight:600;${
+            market.season_type === "summer"
+              ? "background:#dcfce7;color:#166534"
+              : market.season_type === "winter"
+                ? "background:#dbeafe;color:#1e40af"
+                : "background:#f3e8ff;color:#6b21a8"
+          }">${market.season_type}</span>`
+        : "";
+
+      const content = `
+        <div style="font-family:Nunito,system-ui,sans-serif;max-width:260px;padding:4px;">
+          <div style="font-size:15px;font-weight:700;margin-bottom:4px;color:#1a1a1a;">${market.name}</div>
+          <div style="font-size:12px;color:#666;margin-bottom:6px;">${market.city || ""}${market.region ? " · " + market.region : ""}</div>
+          ${market.address ? `<div style="font-size:12px;color:#888;margin-bottom:6px;">${market.address}</div>` : ""}
+          <div style="display:flex;align-items:center;gap:6px;margin-bottom:8px;">
+            ${seasonBadge}
+            ${market.season_start ? `<span style="font-size:11px;color:#888;">${market.season_start} – ${market.season_end}</span>` : ""}
           </div>
-          ${isSelected ? `<div class="mt-1 px-2 py-0.5 bg-card border border-border rounded text-[10px] font-medium shadow-sm whitespace-nowrap max-w-[140px] truncate">${market.name}</div>` : ""}
+          ${market.phone ? `<div style="font-size:12px;color:#666;margin-bottom:4px;">📞 ${market.phone}</div>` : ""}
+          ${websiteLink}
         </div>
       `;
 
-      try {
-        const marker = new google.maps.marker.AdvancedMarkerElement({
-          map,
-          position: { lat: market.latitude, lng: market.longitude },
-          content: pin,
-        });
+      marker.addListener("click", () => {
+        infoWindow.setContent(content);
+        infoWindow.open(map, marker);
+      });
 
-        marker.addListener("click", () => {
-          onSelectMarket(market);
-        });
+      // Show name on hover
+      marker.addListener("mouseover", () => {
+        infoWindow.setContent(content);
+        infoWindow.open(map, marker);
+      });
 
-        markersRef.current.push(marker);
-      } catch {
-        // AdvancedMarkerElement not available, use basic marker
-        const marker = new google.maps.Marker({
-          map,
-          position: { lat: market.latitude, lng: market.longitude },
-          title: market.name,
-        });
-        marker.addListener("click", () => onSelectMarket(market));
-      }
+      markersRef.current.push(marker);
     });
-  }, [markets, selectedMarket, mapLoaded, onSelectMarket]);
-
-  // Pan to selected market
-  useEffect(() => {
-    const map = googleMapRef.current;
-    if (!map || !selectedMarket?.latitude) return;
-    map.panTo({ lat: selectedMarket.latitude, lng: selectedMarket.longitude! });
-    if (map.getZoom()! < 12) map.setZoom(12);
-  }, [selectedMarket]);
+  }, [markets, mapLoaded]);
 
   // Pan to user location
   useEffect(() => {

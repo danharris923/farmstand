@@ -3,7 +3,15 @@
 import { MapPin, Locate } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export function Header({ onLocateMe }: { onLocateMe: () => void }) {
+export function Header({
+  onLocateMe,
+  marketCount,
+  loading,
+}: {
+  onLocateMe: () => void;
+  marketCount: number;
+  loading: boolean;
+}) {
   return (
     <header className="border-b border-border bg-card px-4 py-3 flex items-center justify-between">
       <div className="flex items-center gap-2">
@@ -14,7 +22,9 @@ export function Header({ onLocateMe }: { onLocateMe: () => void }) {
           <h1 className="text-lg font-bold text-foreground leading-tight">
             FarmStand
           </h1>
-          <p className="text-xs text-muted-foreground">BC Farmers Markets</p>
+          <p className="text-xs text-muted-foreground">
+            {loading ? "Loading..." : `${marketCount} BC Farmers Markets`}
+          </p>
         </div>
       </div>
       <Button
