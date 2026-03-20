@@ -14,23 +14,27 @@ import {
 import { useState } from "react"
 
 export function Header() {
-  const [location] = useState("Grimsby, ON")
+  const [location] = useState("British Columbia")
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
       <div className="container flex h-16 items-center gap-4 px-4">
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
+        {/* Logo - icon + text */}
+        <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
-            src="/images/logo.png"
-            alt="FarmStand Connect"
-            width={140}
-            height={40}
-            className="h-10 w-auto"
+            src="/images/logo-icon.png"
+            alt="FarmStand"
+            width={36}
+            height={36}
+            className="h-9 w-9 object-contain"
           />
+          <div className="hidden sm:block leading-tight">
+            <span className="text-base font-bold text-[#2d6a4f]">FarmStand</span>
+            <span className="block text-[10px] font-semibold text-[#e67e22] tracking-[0.15em] uppercase -mt-0.5">Connect</span>
+          </div>
         </Link>
 
-        {/* Search Bar - Hidden on mobile */}
+        {/* Search Bar */}
         <div className="hidden flex-1 md:flex max-w-xl">
           <div className="relative w-full">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
@@ -43,23 +47,17 @@ export function Header() {
         </div>
 
         {/* Location */}
-        <Button variant="ghost" className="hidden gap-2 text-foreground md:flex">
+        <Button variant="ghost" className="hidden gap-2 text-foreground lg:flex">
           <MapPin className="h-4 w-4 text-primary" />
           <span className="text-sm font-medium">{location}</span>
         </Button>
 
-        {/* User Actions */}
+        {/* Actions */}
         <div className="flex items-center gap-2 ml-auto">
           <Button variant="ghost" size="icon" className="relative">
             <User className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="icon" className="relative">
-            <ShoppingCart className="h-5 w-5" />
-            <span className="absolute -top-1 -right-1 h-4 w-4 rounded-full bg-accent text-[10px] font-bold text-accent-foreground flex items-center justify-center">
-              2
-            </span>
-          </Button>
-          
+
           {/* Mobile Menu */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild className="md:hidden">
@@ -72,16 +70,21 @@ export function Header() {
                 <MapPin className="mr-2 h-4 w-4" />
                 {location}
               </DropdownMenuItem>
-              <DropdownMenuItem>Home</DropdownMenuItem>
-              <DropdownMenuItem>New For You</DropdownMenuItem>
-              <DropdownMenuItem>Browse Farms</DropdownMenuItem>
-              <DropdownMenuItem>Your Orders</DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/">Home</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/map">Map View</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/farms">Browse Farms</Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
       </div>
 
-      {/* Navigation - Hidden on mobile */}
+      {/* Nav bar */}
       <nav className="hidden border-t border-border bg-card md:block">
         <div className="container flex items-center gap-6 px-4 py-2">
           <Link href="/" className="flex items-center gap-1 text-sm font-medium text-primary">
@@ -90,14 +93,11 @@ export function Header() {
             </svg>
             Home
           </Link>
-          <Link href="/new" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            New For You
+          <Link href="/map" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            Map View
           </Link>
           <Link href="/farms" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Browse Farms
-          </Link>
-          <Link href="/orders" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Your Orders
           </Link>
         </div>
       </nav>
