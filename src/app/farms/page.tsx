@@ -1,23 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { MapPin, Phone, Globe, Search, ExternalLink } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Card, CardContent } from "@/components/ui/card";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { FarmCard } from "@/components/farm-card";
 import type { MarketWithDetails } from "@/lib/types";
-
-const seasonColors: Record<string, string> = {
-  summer: "bg-green-100 text-green-700",
-  winter: "bg-blue-100 text-blue-700",
-  "year-round": "bg-purple-100 text-purple-700",
-};
 
 export default function FarmsPage() {
   const [markets, setMarkets] = useState<MarketWithDetails[]>([]);
@@ -94,72 +86,7 @@ export default function FarmsPage() {
           <>
             <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
               {pageMarkets.map((market) => (
-                <Card
-                  key={market.id}
-                  className="group overflow-hidden hover:shadow-lg transition-all"
-                >
-                  <div className="relative h-36 overflow-hidden bg-secondary">
-                    {market.image_url ? (
-                      <Image
-                        src={market.image_url}
-                        alt={market.name}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform"
-                      />
-                    ) : (
-                      <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                        <MapPin className="w-8 h-8" />
-                      </div>
-                    )}
-                    {market.season_type && (
-                      <Badge
-                        className={`absolute top-2 left-2 text-[10px] ${seasonColors[market.season_type] || ""}`}
-                      >
-                        {market.season_type}
-                      </Badge>
-                    )}
-                  </div>
-                  <CardContent className="p-3">
-                    <h3 className="font-semibold text-sm line-clamp-1">
-                      {market.name}
-                    </h3>
-                    <p className="text-xs text-muted-foreground mt-0.5 flex items-center gap-1">
-                      <MapPin className="w-3 h-3" />
-                      {market.city || market.address || "BC"}
-                    </p>
-                    {market.description && (
-                      <p className="text-xs text-muted-foreground mt-1.5 line-clamp-2">
-                        {market.description}
-                      </p>
-                    )}
-                    <div className="flex items-center gap-2 mt-2">
-                      {market.website && (
-                        <a
-                          href={
-                            market.website.startsWith("http")
-                              ? market.website
-                              : `https://${market.website}`
-                          }
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
-                        >
-                          <Globe className="w-3 h-3" />
-                          Website
-                        </a>
-                      )}
-                      {market.phone && (
-                        <a
-                          href={`tel:${market.phone}`}
-                          className="inline-flex items-center gap-1 text-xs text-muted-foreground"
-                        >
-                          <Phone className="w-3 h-3" />
-                          Call
-                        </a>
-                      )}
-                    </div>
-                  </CardContent>
-                </Card>
+                <FarmCard key={market.id} market={market} variant="large" />
               ))}
             </div>
             {hasMore && (
