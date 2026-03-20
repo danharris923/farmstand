@@ -21,10 +21,9 @@ export function Hero() {
 
       <div className="container relative px-4 py-16 md:py-24">
         <div className="max-w-lg space-y-6">
-          <h1 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl text-balance">
-            Shop Fresh{" "}
-            <span className="text-primary">&</span>{" "}
-            Local
+          <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-balance">
+            <span className="text-[#2d6a4f]">FarmStand</span>{" "}
+            <span className="block text-[#e67e22] text-2xl md:text-3xl lg:text-4xl font-bold tracking-[0.15em] uppercase mt-1">Connect</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-md leading-relaxed">
             Discover fresh produce, eggs, meats, and more from local farms nearby.

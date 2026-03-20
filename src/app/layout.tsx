@@ -9,9 +9,9 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "FarmStand | BC Farmers Market Finder",
+  title: "FarmStand Connect | Shop Fresh & Local",
   description:
-    "Find 143+ farmers markets across British Columbia. Search by location, browse by region, and discover fresh local produce near you.",
+    "Discover fresh produce, eggs, meats, and more from local farms nearby. Find 490+ farmers markets and farm stands across British Columbia.",
   icons: {
     icon: [
       { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
