@@ -6,21 +6,21 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden">
-      {/* Background image */}
+    <section className="relative overflow-hidden h-[280px] md:h-[320px]">
+      {/* Background image - contain, not cover */}
       <div className="absolute inset-0">
         <Image
           src="/images/hero-bg.png"
           alt=""
           fill
-          className="object-cover"
+          className="object-contain object-right"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/75 to-transparent" />
       </div>
 
-      <div className="container relative px-4 py-16 md:py-24">
-        <div className="max-w-lg space-y-6">
+      <div className="container relative px-4 py-10 md:py-14 h-full flex items-center">
+        <div className="max-w-lg space-y-4">
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-balance">
             <span className="text-[#2d6a4f]">FarmStand</span>{" "}
             <span className="block text-[#e67e22] text-2xl md:text-3xl lg:text-4xl font-bold tracking-[0.15em] uppercase mt-1">Connect</span>
