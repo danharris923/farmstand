@@ -1,6 +1,8 @@
 "use client";
 
-import { MapPin, Locate } from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
+import { ArrowLeft, Locate } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Header({
@@ -13,17 +15,26 @@ export function Header({
   loading: boolean;
 }) {
   return (
-    <header className="border-b border-border bg-card px-4 py-3 flex items-center justify-between">
+    <header className="border-b border-border bg-card px-3 sm:px-4 py-2.5 flex items-center justify-between gap-2">
       <div className="flex items-center gap-2">
-        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-          <MapPin className="w-4 h-4 text-primary-foreground" />
-        </div>
+        <Link href="/">
+          <Button variant="ghost" size="icon" className="h-9 w-9 shrink-0">
+            <ArrowLeft className="w-5 h-5" />
+          </Button>
+        </Link>
+        <Image
+          src="/images/logo-icon.png"
+          alt="FarmStand"
+          width={32}
+          height={32}
+          className="h-8 w-8 object-contain"
+        />
         <div>
-          <h1 className="text-lg font-bold text-foreground leading-tight">
-            FarmStand
+          <h1 className="text-sm sm:text-lg font-bold text-foreground leading-tight">
+            Map View
           </h1>
-          <p className="text-xs text-muted-foreground">
-            {loading ? "Loading..." : `${marketCount} BC Farmers Markets`}
+          <p className="text-[10px] sm:text-xs text-muted-foreground">
+            {loading ? "Loading..." : `${marketCount} farms & markets`}
           </p>
         </div>
       </div>
@@ -31,7 +42,7 @@ export function Header({
         variant="outline"
         size="sm"
         onClick={onLocateMe}
-        className="gap-1.5 rounded-full"
+        className="gap-1.5 rounded-full shrink-0"
       >
         <Locate className="w-4 h-4" />
         <span className="hidden sm:inline">Near Me</span>

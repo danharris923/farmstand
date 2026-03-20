@@ -6,6 +6,14 @@ import type { MarketWithDetails } from "@/lib/types";
 const BC_CENTER = { lat: 53.7, lng: -127.6 };
 const BC_ZOOM = 5;
 
+// BC bounding box — locks panning to this area
+const BC_BOUNDS = {
+  north: 60.5,
+  south: 48.0,
+  west: -139.5,
+  east: -113.5,
+};
+
 export function MapView({
   markets,
   userLocation,
@@ -42,6 +50,12 @@ export function MapView({
     googleMapRef.current = new google.maps.Map(mapRef.current, {
       center: userLocation || BC_CENTER,
       zoom: userLocation ? 11 : BC_ZOOM,
+      minZoom: 4,
+      maxZoom: 18,
+      restriction: {
+        latLngBounds: BC_BOUNDS,
+        strictBounds: false,
+      },
       disableDefaultUI: true,
       zoomControl: true,
       gestureHandling: "greedy",
@@ -61,7 +75,6 @@ export function MapView({
     const map = googleMapRef.current;
     if (!map || !mapLoaded) return;
 
-    // Clear old markers
     markersRef.current.forEach((m) => m.setMap(null));
     markersRef.current = [];
 
@@ -117,7 +130,6 @@ export function MapView({
         infoWindow.open(map, marker);
       });
 
-      // Show name on hover
       marker.addListener("mouseover", () => {
         infoWindow.setContent(content);
         infoWindow.open(map, marker);
