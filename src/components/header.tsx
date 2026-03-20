@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { Search, MapPin, ShoppingCart, User, Menu } from "lucide-react"
+import { Search, MapPin, User, Menu, Map, Home, Store } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import {
@@ -18,15 +18,15 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
-      <div className="container flex h-16 items-center gap-4 px-4">
-        {/* Logo - icon + text */}
-        <Link href="/" className="flex items-center gap-2 shrink-0">
+      <div className="container flex h-14 sm:h-16 items-center gap-2 sm:gap-4 px-3 sm:px-4">
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <Image
             src="/images/logo-icon.png"
             alt="FarmStand"
             width={36}
             height={36}
-            className="h-9 w-9 object-contain"
+            className="h-8 w-8 sm:h-9 sm:w-9 object-contain"
           />
           <div className="hidden sm:block leading-tight">
             <span className="text-base font-bold text-[#2d6a4f]">FarmStand</span>
@@ -34,63 +34,61 @@ export function Header() {
           </div>
         </Link>
 
-        {/* Search Bar */}
-        <div className="hidden flex-1 md:flex max-w-xl">
+        {/* Search - visible on all sizes */}
+        <div className="flex-1 max-w-xl">
           <div className="relative w-full">
-            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <Search className="absolute left-2.5 sm:left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <Input
               type="search"
-              placeholder="Search for fresh produce, eggs, meats, etc..."
-              className="w-full pl-10 pr-4 bg-input border-border focus-visible:ring-primary"
+              placeholder="Search farms..."
+              className="w-full pl-8 sm:pl-10 pr-3 h-9 sm:h-10 text-sm bg-input border-border focus-visible:ring-primary"
             />
           </div>
         </div>
 
-        {/* Location */}
-        <Button variant="ghost" className="hidden gap-2 text-foreground lg:flex">
+        {/* Location - desktop only */}
+        <Button variant="ghost" className="hidden gap-2 text-foreground lg:flex shrink-0">
           <MapPin className="h-4 w-4 text-primary" />
           <span className="text-sm font-medium">{location}</span>
         </Button>
 
-        {/* Actions */}
-        <div className="flex items-center gap-2 ml-auto">
-          <Button variant="ghost" size="icon" className="relative">
-            <User className="h-5 w-5" />
-          </Button>
+        {/* Mobile: hamburger */}
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild className="md:hidden">
+            <Button variant="ghost" size="icon" className="h-9 w-9 shrink-0">
+              <Menu className="h-5 w-5" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end" className="w-48">
+            <DropdownMenuItem asChild>
+              <Link href="/" className="flex items-center gap-2">
+                <Home className="h-4 w-4" /> Home
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link href="/map" className="flex items-center gap-2">
+                <Map className="h-4 w-4" /> Map View
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link href="/farms" className="flex items-center gap-2">
+                <Store className="h-4 w-4" /> Browse Farms
+              </Link>
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
 
-          {/* Mobile Menu */}
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
-                <Menu className="h-5 w-5" />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-48">
-              <DropdownMenuItem>
-                <MapPin className="mr-2 h-4 w-4" />
-                {location}
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/">Home</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/map">Map View</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link href="/farms">Browse Farms</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
+        {/* Desktop: user icon */}
+        <Button variant="ghost" size="icon" className="hidden md:flex shrink-0">
+          <User className="h-5 w-5" />
+        </Button>
       </div>
 
-      {/* Nav bar */}
+      {/* Desktop nav */}
       <nav className="hidden border-t border-border bg-card md:block">
         <div className="container flex items-center gap-6 px-4 py-2">
           <Link href="/" className="flex items-center gap-1 text-sm font-medium text-primary">
-            <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-            </svg>
+            <Home className="h-4 w-4" />
             Home
           </Link>
           <Link href="/map" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">

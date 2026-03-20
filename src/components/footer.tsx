@@ -4,109 +4,57 @@ import Link from "next/link"
 export function Footer() {
   return (
     <footer className="border-t border-border bg-card">
-      <div className="container px-4 py-12">
-        <div className="grid gap-8 md:grid-cols-4">
+      <div className="container px-4 py-8 sm:py-12">
+        <div className="grid gap-8 grid-cols-2 sm:grid-cols-4">
           {/* Brand */}
-          <div className="md:col-span-1">
-            <Link href="/" className="inline-block mb-4">
+          <div className="col-span-2 sm:col-span-1">
+            <Link href="/" className="inline-flex items-center gap-2 mb-3">
               <Image
-                src="/images/logo.png"
+                src="/images/logo-icon.png"
                 alt="FarmStand Connect"
-                width={140}
-                height={40}
-                className="h-10 w-auto"
+                width={32}
+                height={32}
+                className="h-8 w-8 object-contain"
               />
+              <div className="leading-tight">
+                <span className="text-sm font-bold text-[#2d6a4f]">FarmStand</span>
+                <span className="block text-[9px] font-semibold text-[#e67e22] tracking-[0.12em] uppercase -mt-0.5">Connect</span>
+              </div>
             </Link>
-            <p className="text-sm text-muted-foreground leading-relaxed">
+            <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
               Connecting communities with local farmers for fresh, sustainable produce.
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Shop</h4>
+            <h4 className="font-semibold text-foreground mb-3 text-sm">Explore</h4>
             <ul className="space-y-2">
-              <li>
-                <Link href="/farms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Browse Farms
-                </Link>
-              </li>
-              <li>
-                <Link href="/categories" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Categories
-                </Link>
-              </li>
-              <li>
-                <Link href="/new" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  New Arrivals
-                </Link>
-              </li>
-              <li>
-                <Link href="/sales" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Sales & Deals
-                </Link>
-              </li>
+              <li><Link href="/farms" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">Browse Farms</Link></li>
+              <li><Link href="/map" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">Map View</Link></li>
             </ul>
           </div>
 
-          {/* For Farmers */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">For Farmers</h4>
+            <h4 className="font-semibold text-foreground mb-3 text-sm">For Farmers</h4>
             <ul className="space-y-2">
-              <li>
-                <Link href="/sell" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Start Selling
-                </Link>
-              </li>
-              <li>
-                <Link href="/resources" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Resources
-                </Link>
-              </li>
-              <li>
-                <Link href="/success-stories" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Success Stories
-                </Link>
-              </li>
+              <li><Link href="/sell" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">List Your Farm</Link></li>
+              <li><Link href="/contact" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">Contact Us</Link></li>
             </ul>
           </div>
 
-          {/* Support */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Support</h4>
+            <h4 className="font-semibold text-foreground mb-3 text-sm">Legal</h4>
             <ul className="space-y-2">
-              <li>
-                <Link href="/help" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Help Center
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  Contact Us
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  FAQ
-                </Link>
-              </li>
+              <li><Link href="/privacy" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">Privacy</Link></li>
+              <li><Link href="/terms" className="text-xs sm:text-sm text-muted-foreground hover:text-foreground">Terms</Link></li>
             </ul>
           </div>
         </div>
 
-        {/* Bottom */}
-        <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">
+        <div className="mt-8 pt-6 border-t border-border text-center">
+          <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} FarmStand Connect. All rights reserved.
           </p>
-          <div className="flex items-center gap-6">
-            <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
