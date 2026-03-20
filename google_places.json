@@ -1,0 +1,1082 @@
+[
+  {
+    "name": "The Old Farm Market",
+    "address": "660 England Ave, Courtenay, BC V9N 2N4, Canada",
+    "latitude": 49.6895234,
+    "longitude": -124.9987889,
+    "place_id": "ChIJ-Qs49H4ViFQR-e3v2kQN_Zc",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Comox Valley Farmers' Market (Saturday)",
+    "address": "360 Cliffe Ave, Courtenay, BC V9N 2H9, Canada",
+    "latitude": 49.6927949,
+    "longitude": -124.998034,
+    "place_id": "ChIJrWWWZ3UUiFQRKI917-qUOhA",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Fruition Farm",
+    "address": "247 Jones Farm Rd #312, Quathiaski Cove, BC V0P 0A8, Canada",
+    "latitude": 50.011518,
+    "longitude": -125.158206,
+    "place_id": "ChIJLeeb8ICpYlQRqDkoTm3hv1A",
+    "rating": 4.2,
+    "source": "google_places"
+  },
+  {
+    "name": "Clever Crow Farm",
+    "address": "7911 Is Hwy N, Black Creek, BC V9J 1G8, Canada",
+    "latitude": 49.81678170000001,
+    "longitude": -125.1201808,
+    "place_id": "ChIJcbjzvrMbiFQRXlED5AIYyz0",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Lentelus Farms",
+    "address": "1300 Comox Rd, Courtenay, BC V9N 3P8, Canada",
+    "latitude": 49.6894792,
+    "longitude": -124.9904518,
+    "place_id": "ChIJq6qqqrcUiFQR1aVerOstA4A",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "2985 Christie Road Farmstand",
+    "address": "2985 Christie Rd, Qualicum Beach, BC V9K 2L7, Canada",
+    "latitude": 49.3658317,
+    "longitude": -124.6312569,
+    "place_id": "ChIJfc01RQCLiFQRBvePmlgS_uI",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "The Old Farm Market",
+    "address": "5164 Francis St, Koksilah, BC V9L 6V6, Canada",
+    "latitude": 48.7598358,
+    "longitude": -123.6841098,
+    "place_id": "ChIJb2VVd-lFj1QRzPBpGmDlkCQ",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Lost Savanna Farm",
+    "address": "7521 Sturgess Rd, Black Creek, BC V9J 1G7, Canada",
+    "latitude": 49.7932406,
+    "longitude": -125.1410577,
+    "place_id": "ChIJKehyqS4aiFQR9VI7egr6Zoc",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Springford Farm",
+    "address": "1934 NW Bay Rd, Nanoose Bay, BC V9P 9C5, Canada",
+    "latitude": 49.2955562,
+    "longitude": -124.2237456,
+    "place_id": "ChIJZwvdHfeaiFQRioCnedE7bFQ",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Shamrock Farm",
+    "address": "2276 Anderton Rd, Comox, BC V9M 4B2, Canada",
+    "latitude": 49.7300832,
+    "longitude": -124.9330771,
+    "place_id": "ChIJZ8e4DiMSiFQRZJbCH5rqsXs",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Pattison Farms",
+    "address": "2124 Dzini Rd, Black Creek, BC V9J 1H1, Canada",
+    "latitude": 49.8260766,
+    "longitude": -125.1245289,
+    "place_id": "ChIJu0uV8KQbiFQR9vrwrklXWkU",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Holly Hill Farm",
+    "address": "2311 Ida Rd, Campbell River, BC V9W 4P9, Canada",
+    "latitude": 50.0380944,
+    "longitude": -125.2759289,
+    "place_id": "ChIJZa_IcgqvYlQRxa7hdKYEL5Y",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Dan's Farm & Country Market",
+    "address": "2030 Bear Hill Rd, Saanichton, BC V8M 1X7, Canada",
+    "latitude": 48.5510429,
+    "longitude": -123.4168774,
+    "place_id": "ChIJaRyc4nxuj1QRCv6vEYws7XI",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Qualicum Beach Farmer's Market",
+    "address": "644 Veterans Way, Qualicum Beach, BC V9K 1T1, Canada",
+    "latitude": 49.3483009,
+    "longitude": -124.441071,
+    "place_id": "ChIJ_dn94NSOiFQRKBOGzoMmbiQ",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "DeeKayTee Farmers Market",
+    "address": "6299 Headquarters Rd #6215, Courtenay, BC V9J 1M8, Canada",
+    "latitude": 49.76105459999999,
+    "longitude": -125.0645857,
+    "place_id": "ChIJxxkfhcAQiFQRC2vZV2mSUnk",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Silver Meadows Farm Market Ltd.",
+    "address": "1019 Errington Rd, Parksville, BC V9P 2C8, Canada",
+    "latitude": 49.3034784,
+    "longitude": -124.3695247,
+    "place_id": "ChIJIS7L88qPiFQR42pEXtgWsNQ",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Quadra Island Farmer's Market",
+    "address": "657 Harper Rd, Quathiaski Cove, BC V0P 1N0, Canada",
+    "latitude": 50.0402019,
+    "longitude": -125.2105416,
+    "place_id": "ChIJR_jmMQCvYlQR_gWFCb7woDk",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Creekside Farm",
+    "address": "191 Barlow Rd, Campbell River, BC V9W 1T1, Canada",
+    "latitude": 49.9621384,
+    "longitude": -125.2135839,
+    "place_id": "ChIJH-wmPX-oYlQR8K26CDeP5rk",
+    "rating": 4,
+    "source": "google_places"
+  },
+  {
+    "name": "Fireweed Farmstead",
+    "address": "6669 Is Hwy N, Merville, BC V0R 2M0, Canada",
+    "latitude": 49.785159,
+    "longitude": -125.060565,
+    "place_id": "ChIJa988HIIQiFQRhKhVyE529UQ",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Whitaker Farm",
+    "address": "6241 Whitaker Rd, Courtenay, BC V9J 1V6, Canada",
+    "latitude": 49.7883899,
+    "longitude": -125.007858,
+    "place_id": "ChIJCwCGKD8RiFQR5UCeLAYeMHg",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Okanagan Premium Produce - Fruit Farm Market",
+    "address": "2680 Old Vernon Rd, Kelowna, BC V1X 6N9, Canada",
+    "latitude": 49.92456,
+    "longitude": -119.36456,
+    "place_id": "ChIJ5RTggSPtfVMRSL_wUU-kxpM",
+    "rating": 2.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Valley Farms Fruit Stand",
+    "address": "8984 BC-97, Oliver, BC V0H 1T2, Canada",
+    "latitude": 49.2653197,
+    "longitude": -119.5202034,
+    "place_id": "ChIJV5YGXtyTglQRQiuqQbcA0UQ",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "K.L.O. Farm Market",
+    "address": "1760 K. L. O. Rd, Kelowna, BC V1W 5M9, Canada",
+    "latitude": 49.861162,
+    "longitude": -119.459423,
+    "place_id": "ChIJMXLCtPmNfVMRUYc44crDmvs",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Okanagan Fruit stand",
+    "address": "5012 Smith Ave, Burnaby, BC V5G 2W5, Canada",
+    "latitude": 49.2392473,
+    "longitude": -123.0196448,
+    "place_id": "ChIJY4tV5lx3hlQRVb4PPjomy4k",
+    "rating": 4,
+    "source": "google_places"
+  },
+  {
+    "name": "Farm Gate Winery & Fruit Stand",
+    "address": "346 Hwy. 97 South, Kaleden, BC V0H 1K0, Canada",
+    "latitude": 49.4015295,
+    "longitude": -119.6055327,
+    "place_id": "ChIJhc5odEKLglQRE6VaJvzq5F0",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Kelowna Farmers' and Crafters' Market",
+    "address": "1631 Dickson Ave, Kelowna, BC V1Y 0B5, Canada",
+    "latitude": 49.8802817,
+    "longitude": -119.4612447,
+    "place_id": "ChIJVwr1_saMfVMRJ9iM3NXGy7w",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "The Friendly Farmer Fruitstand",
+    "address": "2777 K. L. O. Rd #3, Kelowna, BC V1W 4A5, Canada",
+    "latitude": 49.8587071,
+    "longitude": -119.4248266,
+    "place_id": "ChIJfWwLLF6MfVMRZfuN_A5rcjw",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Westbank Corner Fruit Stall",
+    "address": "3630 Elliott Rd, West Kelowna, BC V4T 1N9, Canada",
+    "latitude": 49.8316093,
+    "longitude": -119.631274,
+    "place_id": "ChIJQ1ZEnEB1glQRg8eBO26EdhM",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Blossom Fruit Stand",
+    "address": "5408 BC-97, Summerland, BC V0H 1Z4, Canada",
+    "latitude": 49.569861,
+    "longitude": -119.6315195,
+    "place_id": "ChIJPbrT8m9yglQRvtivQo_y8ZQ",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Chahal Farms",
+    "address": "10419 Okanagan Centre Rd E, Lake Country, BC V4V 1K9, Canada",
+    "latitude": 50.0336532,
+    "longitude": -119.4100257,
+    "place_id": "ChIJfyqHV_3ufVMRR-hKwCyqF3U",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Longhill Fresh Fruit & Produce",
+    "address": "2435 Rojem Rd #2409, Kelowna, BC V1V 2G3, Canada",
+    "latitude": 49.9139044,
+    "longitude": -119.4259797,
+    "place_id": "ChIJkSMi19zyfVMRwQGaF4CoCCE",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Aujla Farm Market",
+    "address": "4383 BC-97, Oliver, BC V0H 1T1, Canada",
+    "latitude": 49.116142,
+    "longitude": -119.577024,
+    "place_id": "ChIJ_z0GPGTDglQRgezHEIQP3h8",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Bears Fruit Stand",
+    "address": "991 Keremeos Bypass Rd, Keremeos, BC V0X 1N0, Canada",
+    "latitude": 49.2212605,
+    "longitude": -119.8238731,
+    "place_id": "ChIJW2okFhf8glQR4VhDX5zR5bk",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Mom & Pop's Farm Market",
+    "address": "230 7th Ave, Keremeos, BC V0X 1N4, Canada",
+    "latitude": 49.2054,
+    "longitude": -119.8319471,
+    "place_id": "ChIJSf57TwHlglQRNmS0qzprpPk",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "K & J Pacific Peaches",
+    "address": "1145 Morrison Rd, Kelowna, BC V1X 4W1, Canada",
+    "latitude": 49.9034156,
+    "longitude": -119.3695144,
+    "place_id": "ChIJ7dDyBFGNfVMRenkgXE6fFhY",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Hillcrest Farm Market",
+    "address": "700 Hwy 33 E, Kelowna, BC V1X 7W4, Canada",
+    "latitude": 49.8821679,
+    "longitude": -119.3715374,
+    "place_id": "ChIJw43BlhSNfVMRZEZk3VA3IDU",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Coldstream Fruitstand Ltd",
+    "address": "9300 BC-6, Coldstream, BC V1B 3B5, Canada",
+    "latitude": 50.2324315,
+    "longitude": -119.2168573,
+    "place_id": "ChIJOXeGAiPZfVMRjpeFFLaazF4",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Peach King Orchards",
+    "address": "990 Keremeos Bypass Rd, Keremeos, BC V0X 1N0, Canada",
+    "latitude": 49.22158,
+    "longitude": -119.8248516,
+    "place_id": "ChIJl4cq6BTlglQRTDEPCFQbGD0",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "MCCONNELL'S Fruit Market & Orchard",
+    "address": "13041 BC-97, Summerland, BC V0H 1Z0, Canada",
+    "latitude": 49.6022816,
+    "longitude": -119.6640857,
+    "place_id": "ChIJPbrT8m9yglQRSMlIOyfHJ-Q",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Lepp Farm Market",
+    "address": "33955 Clayburn Rd, Abbotsford, BC V2S 7T6, Canada",
+    "latitude": 49.0824452,
+    "longitude": -122.2843324,
+    "place_id": "ChIJB7wh_Lo1hFQRt4c4o7fG03w",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Abbotsford Farm & Country Market",
+    "address": "2552 McCallum Rd, Abbotsford, BC V2S 2C1, Canada",
+    "latitude": 49.0481156,
+    "longitude": -122.2922638,
+    "place_id": "ChIJ3d6V6mI1hFQRgZ0bTSMsnEs",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Neufeld Farm Market",
+    "address": "32215 King Rd, Abbotsford, BC V2T 5Z4, Canada",
+    "latitude": 49.0311972,
+    "longitude": -122.3312672,
+    "place_id": "ChIJKRVTqVa1hVQRo02aaUJQcQQ",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Local Harvest Market",
+    "address": "7697 Lickman Rd, Chilliwack, BC V2R 4A7, Canada",
+    "latitude": 49.1409046,
+    "longitude": -122.0077579,
+    "place_id": "ChIJ0afn26g4hFQR-xqCASaRCK4",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Forstbauer Family Natural Food Farm - Farm Stand and U-Pick Blueberries",
+    "address": "49350 Prairie Central Rd, Chilliwack, BC V2P 6H3, Canada",
+    "latitude": 49.147132,
+    "longitude": -121.8591311,
+    "place_id": "ChIJVRkZxi9AhFQRa8EhWQlcRFA",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Ralph's Farm Market",
+    "address": "22728 Fraser Hwy, Langley Twp, BC V2Z 2T8, Canada",
+    "latitude": 49.0868494,
+    "longitude": -122.5955923,
+    "place_id": "ChIJu4RxHPXOhVQR3RC-hIixFB8",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Fraser Valley Farm Market",
+    "address": "7387 216 St, Langley Twp, BC V2Y 2S3, Canada",
+    "latitude": 49.1343513,
+    "longitude": -122.6235028,
+    "place_id": "ChIJSZpiaybRhVQRDTy6QoPnEmg",
+    "rating": null,
+    "source": "google_places"
+  },
+  {
+    "name": "GL Farms Berry Stand",
+    "address": "34777 Trans Canada Trl, Abbotsford, BC V2S 7Z1, Canada",
+    "latitude": 49.0817279,
+    "longitude": -122.2640282,
+    "place_id": "ChIJgy9k-QA1hFQRNshzcWHbIUI",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "SKT Farm Market",
+    "address": "2369 McCallum Rd C1, Abbotsford, BC V2S 3N7, Canada",
+    "latitude": 49.0452357,
+    "longitude": -122.2941126,
+    "place_id": "ChIJA25f8J5KhFQRgRjdS3rsmcM",
+    "rating": 4.3,
+    "source": "google_places"
+  },
+  {
+    "name": "Meridian Farm Market",
+    "address": "32900 South Fraser Way, Abbotsford, BC V2S 5A1, Canada",
+    "latitude": 49.0499953,
+    "longitude": -122.3142618,
+    "place_id": "ChIJFYtxIRk1hFQRUSRgQo2eAJc",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "SKT Farm Market",
+    "address": "45660 Airport Rd, Chilliwack, BC V2P 6Z9, Canada",
+    "latitude": 49.1545871,
+    "longitude": -121.9614057,
+    "place_id": "ChIJo5dWbWE_hFQRSQIA28bvzmE",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Fort Langley Village Farmers' Market",
+    "address": "9025 Glover Rd, Langley Twp, BC V1M 2R7, Canada",
+    "latitude": 49.1664713,
+    "longitude": -122.5823102,
+    "place_id": "ChIJFTlxOX3ShVQR8Kqu7E0UNSg",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Seasons Farm Market",
+    "address": "1356 Sumas Way, Abbotsford, BC V2S 8M9, Canada",
+    "latitude": 49.0272784,
+    "longitude": -122.2646113,
+    "place_id": "ChIJHWwbHxpLhFQR9ZP4j-3vne0",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Paul Farms",
+    "address": "913 264 St, Aldergrove, BC V4W 2M8, Canada",
+    "latitude": 49.0186092,
+    "longitude": -122.4927817,
+    "place_id": "ChIJFaiPxmvJhVQRRO2yBQNOlYs",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Krause Berry Farms & Estate Winery",
+    "address": "6179 248 St, Langley Twp, BC V4W 1C3, Canada",
+    "latitude": 49.1131988,
+    "longitude": -122.5400874,
+    "place_id": "ChIJx3-AzLbNhVQRMkIKUqWnlv4",
+    "rating": 4.1,
+    "source": "google_places"
+  },
+  {
+    "name": "East Ridge Farms",
+    "address": "11924 267 St, Maple Ridge, BC V2W 1N9, Canada",
+    "latitude": 49.2183122,
+    "longitude": -122.482214,
+    "place_id": "ChIJR6B9kVUshFQRhrUABhfhzNw",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Keith Wilson Fruit Stand",
+    "address": "43854 Keith Wilson Rd, Chilliwack, BC V2R 4B5, Canada",
+    "latitude": 49.1039557,
+    "longitude": -122.0066637,
+    "place_id": "ChIJff0x_PpHhFQR-DCTPts3t1Q",
+    "rating": 4.3,
+    "source": "google_places"
+  },
+  {
+    "name": "MERCADO FRESH FARMS",
+    "address": "4487 Boundary Rd, Abbotsford, BC V3G 2N3, Canada",
+    "latitude": 49.0836385,
+    "longitude": -122.0808934,
+    "place_id": "ChIJLclKpPhJhFQRidB66NockGE",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Willems Berry Farm",
+    "address": "33736 Vye Rd, Abbotsford, BC V2S 8A9, Canada",
+    "latitude": 49.015441,
+    "longitude": -122.289815,
+    "place_id": "ChIJJVkRQc5KhFQR6msoDm8PL34",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Mission City Farmers Market",
+    "address": "7871 Taulbut St, Mission, BC V2V 4X4, Canada",
+    "latitude": 49.1440341,
+    "longitude": -122.3076894,
+    "place_id": "ChIJ7YVSfP8zhFQRfF0cLuokb-E",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Campbell River Farmers Market",
+    "address": "Shoppers Row, Campbell River, BC V9W 2C8, Canada",
+    "latitude": 50.0271108,
+    "longitude": -125.2453396,
+    "place_id": "ChIJjUMhYfOvYlQRqWMTc-l81QQ",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Denman Island Farmers Market",
+    "address": "5771 Denman Rd, Denman Island, BC V0R 1T0, Canada",
+    "latitude": 49.5342063,
+    "longitude": -124.7839736,
+    "place_id": "ChIJ7eO4icpoiFQR1CuoDnTebiw",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Cedar Farmer's Market",
+    "address": "1984 Woobank Rd, Nanaimo, BC V9X 1H4, Canada",
+    "latitude": 49.1012306,
+    "longitude": -123.8477172,
+    "place_id": "ChIJ_7C_XLKYiFQRyQvYIaayN4M",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Old Country Market - Goats on Roof",
+    "address": "2326 Alberni Hwy, Coombs, BC V0R 1M0, Canada",
+    "latitude": 49.3051919,
+    "longitude": -124.4236734,
+    "place_id": "ChIJaUL77V2OiFQRBJWeqxTakIw",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Granville Island Public Market",
+    "address": "Public Market, 1689 Johnston St, Vancouver, BC V6H 3S2, Canada",
+    "latitude": 49.2726609,
+    "longitude": -123.1351387,
+    "place_id": "ChIJG3q8d85zhlQRIH1pyAsVpEc",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Duncan Farmers' Market",
+    "address": "200 Craig St, Duncan, BC V9L 1W3, Canada",
+    "latitude": 48.778729,
+    "longitude": -123.708084,
+    "place_id": "ChIJS8RcrV5Pj1QRbnJuAVrfjOM",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Island Roots Farmers' Market",
+    "address": "Nanaimo, BC V9T 3K7, Canada",
+    "latitude": 49.1951721,
+    "longitude": -123.9928998,
+    "place_id": "ChIJYyJGYbWjiFQRTdqQj1ehPxM",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Hornby Island Farmers' Market",
+    "address": "Sollans Road, Hornby Island, BC V0R 1Z0, Canada",
+    "latitude": 49.5337518,
+    "longitude": -124.6653199,
+    "place_id": "ChIJPzEeoW5liFQRzGnh8AqSvrM",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Farm Gate Store",
+    "address": "568 Fernhill Rd, Mayne Island, BC V0N 2J2, Canada",
+    "latitude": 48.8451455,
+    "longitude": -123.2781203,
+    "place_id": "ChIJ4Ykhg1z2hVQRWKk7FTmbU2w",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Farm Gate Meats",
+    "address": "4100 Dixon Creek Rd, Barri\u00e8re, BC V0E 1E1, Canada",
+    "latitude": 51.1553621,
+    "longitude": -120.0935942,
+    "place_id": "ChIJAWY9hTWjf1MREB2SkcnWypU",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Andtbaka Farm",
+    "address": "2440 BC-101, Powell River, BC V0N 2G0, Canada",
+    "latitude": 49.9682207,
+    "longitude": -124.7200225,
+    "place_id": "ChIJV3n82HX8h1QRmWBtYdkcGuw",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Academy Farms",
+    "address": "23480 40 Ave, Langley Twp, BC V2Z 2J9, Canada",
+    "latitude": 49.07375589999999,
+    "longitude": -122.5733477,
+    "place_id": "ChIJ8-n5yqLPhVQR3b0oH-zoMm4",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Parkgate Farm Market Kensington",
+    "address": "6530 Hastings St, Burnaby, BC V5B 1V9, Canada",
+    "latitude": 49.2795085,
+    "longitude": -122.9687094,
+    "place_id": "ChIJaYzamVZ3hlQR3jJgDsB8Ip8",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "The Biggest Little Fruit Stand",
+    "address": "2063 BC-3A, Central Kootenay, BC V0B 1G8, Canada",
+    "latitude": 49.39004449999999,
+    "longitude": -117.5528044,
+    "place_id": "ChIJNViiZlcrY1MRIXXikvsrL90",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Kootenay Corner Gardens",
+    "address": "2450 Filipoff Rd, Castlegar, BC V1N 4R9, Canada",
+    "latitude": 49.417587,
+    "longitude": -117.530965,
+    "place_id": "ChIJqyz1qPLNfFMRBU6nweKj5WA",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "City of Nelson Farmers Market",
+    "address": "Nelson, BC V1L 5S4, Canada",
+    "latitude": 49.4879829,
+    "longitude": -117.2960726,
+    "place_id": "ChIJYy4ifOW3fFMRX5GdVnJnyZo",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Meadowbrook Farm- Kootenay Sprouts",
+    "address": "1026 Airport Rd, Salmo, BC V0G 1Z0, Canada",
+    "latitude": 49.1776738,
+    "longitude": -117.2629483,
+    "place_id": "ChIJXfCIfMY7Y1MR3EbiIbDdGN0",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Kootenay Market",
+    "address": "635 Columbia Ave, Castlegar, BC V1N 1G9, Canada",
+    "latitude": 49.3217684,
+    "longitude": -117.6648929,
+    "place_id": "ChIJJ5_lK1zTfFMRLsemEXOlgnk",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Zimmer Ranch - Farm Stand & Barnyard Visits",
+    "address": "1264 Sunridge Rd, East Kootenay F, BC V0A 1K3, Canada",
+    "latitude": 50.4844125,
+    "longitude": -115.9866908,
+    "place_id": "ChIJXzqsAABhelMRhPdoDNN99lI",
+    "rating": null,
+    "source": "google_places"
+  },
+  {
+    "name": "Sun Twist Acres",
+    "address": "12625 Warnock Rd, Madeira Park, BC V0N 2H1, Canada",
+    "latitude": 49.61074,
+    "longitude": -124.044549,
+    "place_id": "ChIJ25-Kp3zNh1QR4L9D6TqYu7Y",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Sunnycoast Farm / 'The Post' Farmstand",
+    "address": "908 Reed Rd, Gibsons, BC V0N 1V7, Canada",
+    "latitude": 49.414254,
+    "longitude": -123.519944,
+    "place_id": "ChIJRd1aNDk_hlQR6PD9fp8bT6s",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Grounded Acres Organic Farm",
+    "address": "1668 Sunshine Coast Hwy, Gibsons, BC V0N 2W5, Canada",
+    "latitude": 49.407485,
+    "longitude": -123.5618719,
+    "place_id": "ChIJ0di-17o_hlQR6xcyAtCf6Dw",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Henry Reed Organic Produce",
+    "address": "802 Henry Rd, Gibsons, BC V0N 1V2, Canada",
+    "latitude": 49.41321629999999,
+    "longitude": -123.5404249,
+    "place_id": "ChIJrTjpyKw_hlQRp2-q-I32_Xk",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Heart & Sol Coastal Farm",
+    "address": "6282 Crowston Rd, Sechelt, BC V7Z 0L1, Canada",
+    "latitude": 49.49989739999999,
+    "longitude": -123.7935527,
+    "place_id": "ChIJ-9xGWRoxhlQR_WgcMYpX284",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "Shady Hazel Farm",
+    "address": "805 Payne Rd, Gibsons, BC V0N 1V7, Canada",
+    "latitude": 49.412028,
+    "longitude": -123.531815,
+    "place_id": "ChIJLfqM9a0_hlQRfP0d-t6YMKs",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Roberts Creek Community Farm Market",
+    "address": "1309 Roberts Creek Rd, Roberts Creek, BC V0N 2W2, Canada",
+    "latitude": 49.4297648,
+    "longitude": -123.6502718,
+    "place_id": "ChIJbUVka4o9hlQRrp87EKYr4vM",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Little Red Wagon Farm",
+    "address": "2025 Sunshine Coast Hwy, Roberts Creek, BC V0N 2W6, Canada",
+    "latitude": 49.4113349,
+    "longitude": -123.5822448,
+    "place_id": "ChIJUxZEP4s-hlQRtmvw2-n6EPY",
+    "rating": 4.8,
+    "source": "google_places"
+  },
+  {
+    "name": "Powell River Farmers' Market",
+    "address": "4365 McLeod Rd, Powell River, BC V8A 0T1, Canada",
+    "latitude": 49.8354714,
+    "longitude": -124.4839486,
+    "place_id": "ChIJIy-8Gxnnh1QR5qaUwOqs5-8",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Walker Creek Farm",
+    "address": "1519 Burton Rd, Gibsons, BC V0N 1V2, Canada",
+    "latitude": 49.4078613,
+    "longitude": -123.5513263,
+    "place_id": "ChIJHWqa7z0_hlQRJB_8jOmHoC0",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Gibsons Farm",
+    "address": "713 Henry Rd, Gibsons, BC V0N 1V2, Canada",
+    "latitude": 49.4092597,
+    "longitude": -123.5408401,
+    "place_id": "ChIJ0yQvJDI_hlQR03CV8yFCRHc",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "Bear Ranch Farm",
+    "address": "1097 Reed Rd, Gibsons, BC V0N 1V7, Canada",
+    "latitude": 49.41384,
+    "longitude": -123.5305001,
+    "place_id": "ChIJkUIP0sU_hlQRN319vxyXoSM",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Hillside Coast Farms",
+    "address": "1184 Hawthorn Rd, Roberts Creek, BC V0N 2W2, Canada",
+    "latitude": 49.4254565,
+    "longitude": -123.6473319,
+    "place_id": "ChIJxyKBBC49hlQRJctOYUfJAHo",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "One Tiny Farm",
+    "address": "3146 Beach Ave, Roberts Creek, BC V0N 2W0, Canada",
+    "latitude": 49.4206145,
+    "longitude": -123.6432494,
+    "place_id": "ChIJhVMLM5Q9hlQRN90oAXLBsqc",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Farm Ventures",
+    "address": "713 Sullivan Rd, Roberts Creek, BC V0N 2W6, Canada",
+    "latitude": 49.408637,
+    "longitude": -123.574283,
+    "place_id": "ChIJLdfT7l8-hlQRsfRj5ugyFYc",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Gambier Island Farmers Market Society",
+    "address": "356 Vanguard Ave, Gibsons, BC V0N 1V1, Canada",
+    "latitude": 49.4398332,
+    "longitude": -123.4340643,
+    "place_id": "ChIJ1SSJkQhBhlQRryBz5p2_afs",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Coastal Sun Greenhouse And Farm",
+    "address": "1652 Pell Rd, Roberts Creek, BC V0N 2W1, Canada",
+    "latitude": 49.441816,
+    "longitude": -123.662435,
+    "place_id": "ChIJM0MpaEU7hlQRuOirHyFplbw",
+    "rating": 4,
+    "source": "google_places"
+  },
+  {
+    "name": "Ruby's Run Urban Farm",
+    "address": "Neptune Rd, Sechelt, BC V0N 3A6, Canada",
+    "latitude": 49.4773942,
+    "longitude": -123.7618185,
+    "place_id": "ChIJAf9auJc7hlQRYHcFf3RV0rs",
+    "rating": 4.3,
+    "source": "google_places"
+  },
+  {
+    "name": "Mason Bluff Farm",
+    "address": "6065 Mason Rd, Sechelt, BC V0N 3A5, Canada",
+    "latitude": 49.4923296,
+    "longitude": -123.8035511,
+    "place_id": "ChIJGVBtKYgwhlQRg-8NXGbiMpU",
+    "rating": 4.3,
+    "source": "google_places"
+  },
+  {
+    "name": "Hazel and Bloom Farmstand",
+    "address": "6708 Norwest Bay Rd, Sechelt, BC V7Z 0S5, Canada",
+    "latitude": 49.47884,
+    "longitude": -123.8134799,
+    "place_id": "ChIJpyv_fJ8xhlQRBpWUiZJ11vg",
+    "rating": null,
+    "source": "google_places"
+  },
+  {
+    "name": "Williams Lake Farmers' Market",
+    "address": "525 Proctor St, Williams Lake, BC V2G 4J1, Canada",
+    "latitude": 52.1318267,
+    "longitude": -122.1403783,
+    "place_id": "ChIJhUkdHnejgFMRixyOFSW1Dxg",
+    "rating": 4.4,
+    "source": "google_places"
+  },
+  {
+    "name": "South Cariboo Farmers Market",
+    "address": "265 Birch Ave, 100 Mile House, BC V0K 0A7, Canada",
+    "latitude": 51.6441787,
+    "longitude": -121.2951851,
+    "place_id": "ChIJZUa90wJsgFMRCEQYkOwLqEc",
+    "rating": null,
+    "source": "google_places"
+  },
+  {
+    "name": "Fruit of the Spirit Farm",
+    "address": "2278 Endall Rd, Black Creek, BC V9J 1G8, Canada",
+    "latitude": 49.8180872,
+    "longitude": -125.133995,
+    "place_id": "ChIJbYq8504biFQRh1YRhHM6Xew",
+    "rating": 3,
+    "source": "google_places"
+  },
+  {
+    "name": "Farmer's Market on Pender Island",
+    "address": "4418 Bedwell Harbour Rd, Pender Island, BC V0N 2M1, Canada",
+    "latitude": 48.7950312,
+    "longitude": -123.2828313,
+    "place_id": "ChIJleppjGFfj1QRpIJhVzuugWI",
+    "rating": 4.7,
+    "source": "google_places"
+  },
+  {
+    "name": "Cormie Farm",
+    "address": "Riverside Rd, Parksville, BC V9P 2E2, Canada",
+    "latitude": 49.3145312,
+    "longitude": -124.2778251,
+    "place_id": "ChIJ4V1yvkyFiFQRwW9TcabH-yA",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "North End Farm",
+    "address": "2521 N End Rd, Salt Spring Island, BC V8K 1A5, Canada",
+    "latitude": 48.9326449,
+    "longitude": -123.5757701,
+    "place_id": "ChIJM6OSVqlVj1QRQ-w4EtTgclo",
+    "rating": 4.9,
+    "source": "google_places"
+  },
+  {
+    "name": "DeMille's Farm Market",
+    "address": "3710 10 Ave SW, Salmon Arm, BC V1E 3B5, Canada",
+    "latitude": 50.6915913,
+    "longitude": -119.3276515,
+    "place_id": "ChIJLQACQoH1flMRPMFLiTgeDTo",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Two Roads Farm",
+    "address": "1536 NW Rd, Denman Island, BC V0R 1T0, Canada",
+    "latitude": 49.5394871,
+    "longitude": -124.8193075,
+    "place_id": "ChIJW7VRut5oiFQRhaZ4rdT6xFs",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Kingfisher Farm Market",
+    "address": "512 172 St, Surrey, BC V3Z 9R3, Canada",
+    "latitude": 49.0112278,
+    "longitude": -122.7460775,
+    "place_id": "ChIJaadYlxHEhVQRCpVidhHmawc",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Backroads Family Farm Market",
+    "address": "2757 52 St, Delta, BC V4M 4G7, Canada",
+    "latitude": 49.0533834,
+    "longitude": -123.0802308,
+    "place_id": "ChIJPceYbtvmhVQR3cPRTU-rGI8",
+    "rating": 4.5,
+    "source": "google_places"
+  },
+  {
+    "name": "Stonefields Farm",
+    "address": "1675 Glamorgan Rd, North Saanich, BC V8L 5S9, Canada",
+    "latitude": 48.65834599999999,
+    "longitude": -123.429353,
+    "place_id": "ChIJmdzG5cVpj1QRrIJAz37v1X0",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Erskine Acres Farmstand",
+    "address": "157 Spring Gold Way, Salt Spring Island, BC V8K 2Y1, Canada",
+    "latitude": 48.8533629,
+    "longitude": -123.536256,
+    "place_id": "ChIJYcO5xWtRj1QR38vDHbobuek",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Ironwood Farm",
+    "address": "8301 Island Hwy S, Fanny Bay, BC V0R 1W0, Canada",
+    "latitude": 49.4695394,
+    "longitude": -124.7952676,
+    "place_id": "ChIJqw5KEaVniFQRSxZi4g1kadU",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Sommer Estate Farms",
+    "address": "18283 92 Ave, Surrey, BC V4N 3Y9, Canada",
+    "latitude": 49.1703649,
+    "longitude": -122.7167655,
+    "place_id": "ChIJ59bhQgDRhVQRq53lruXEiJo",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Merom Farms Ltd.",
+    "address": "2244 Lefeuvre Rd, Abbotsford, BC V4X 1C6, Canada",
+    "latitude": 49.0433364,
+    "longitude": -122.4476407,
+    "place_id": "ChIJPZhfVUrKhVQRHMfck8HxojQ",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Raven Rock Farm",
+    "address": "3331 Port Washington Rd, Pender Island, BC V0N 2M1, Canada",
+    "latitude": 48.8051737,
+    "longitude": -123.2869124,
+    "place_id": "ChIJo0pbvs_1hVQRLfPaZUo2GMQ",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Gibbs Creek Farm",
+    "address": "5800 Gibbs Creek Rd, Grand Forks, BC V0H 1H5, Canada",
+    "latitude": 49.0143176,
+    "longitude": -118.541717,
+    "place_id": "ChIJ4-GhBperYlMRNN42wx4oMpk",
+    "rating": 4,
+    "source": "google_places"
+  },
+  {
+    "name": "North Arm Farm",
+    "address": "Sea to Sky Highway, 1888 BC-99, Pemberton, BC V0N 2L0, Canada",
+    "latitude": 50.30943569999999,
+    "longitude": -122.7350333,
+    "place_id": "ChIJl_-gXeg0h1QRn5tvphAeaXI",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Woodside Farm",
+    "address": "7149 W Coast Rd, Sooke, BC V9Z 0S1, Canada",
+    "latitude": 48.369484,
+    "longitude": -123.746579,
+    "place_id": "ChIJwRTvA84Fj1QRbSyGLd4pRmc",
+    "rating": 4.6,
+    "source": "google_places"
+  },
+  {
+    "name": "Muddy Duck Farm",
+    "address": "1150 Fisher Rd, Cobble Hill, BC V8H 0E5, Canada",
+    "latitude": 48.70137820000001,
+    "longitude": -123.5809218,
+    "place_id": "ChIJ6aQ_4GRDj1QRBK0fc3_e4ps",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Silver Rill Berry Farm",
+    "address": "1490 Hovey Rd, Saanichton, BC V8M 1S7, Canada",
+    "latitude": 48.5881233,
+    "longitude": -123.4377341,
+    "place_id": "ChIJ9xvr08tuj1QRuVllK81D-WY",
+    "rating": 5,
+    "source": "google_places"
+  },
+  {
+    "name": "Galey Farms Market",
+    "address": "4150 Blenkinsop Rd, Victoria, BC V8X 2C3, Canada",
+    "latitude": 48.477852,
+    "longitude": -123.353723,
+    "place_id": "ChIJj-5li9Fzj1QRTe9vMz477d0",
+    "rating": 4.3,
+    "source": "google_places"
+  }
+]
