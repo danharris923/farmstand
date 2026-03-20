@@ -6,17 +6,21 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden h-[280px] md:h-[320px]">
-      {/* Background image - contain, not cover */}
+    <section className="relative overflow-hidden h-[280px] md:h-[340px]">
+      {/* Background image - 3x upscaled, sharp */}
       <div className="absolute inset-0">
-        <Image
-          src="/images/hero-bg.png"
-          alt=""
-          fill
-          className="object-contain object-right"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/75 to-transparent" />
+        <picture>
+          <source srcSet="/images/hero-bg-hq.webp" type="image/webp" />
+          <Image
+            src="/images/hero-bg-hq.png"
+            alt=""
+            fill
+            className="object-cover object-center"
+            priority
+            quality={90}
+          />
+        </picture>
+        <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/70 to-transparent" />
       </div>
 
       <div className="container relative px-4 py-10 md:py-14 h-full flex items-center">
